@@ -15,13 +15,21 @@ const Hero = () => {
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 leading-tight">
             Hi, I'm <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Brennen Farrell</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-4">
-            Software Engineer & Machine Learning Developer
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-4 leading-relaxed">
+            Computer Science student at NC State with a passion learning, ownership, and innovation in tech. Experienced in mobile development, fullstack, distributed systems, and machine learning.
           </p>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8 leading-relaxed">
-            Computer Science student at NC State with a passion for building innovative solutions
-            at the intersection of software engineering and machine learning.
-          </p>
+
+          <div className="mb-8 inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-md border border-gray-200">
+            <span className="text-sm text-gray-500">Currently building:</span>
+            <a
+              href="https://potluck.support/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-semibold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent hover:underline"
+            >
+              Potluck Markets
+            </a>
+          </div>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
             <button
