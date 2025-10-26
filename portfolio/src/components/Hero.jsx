@@ -16,7 +16,7 @@ const Hero = () => {
             Hi, I'm <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">Brennen Farrell</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-4 leading-relaxed">
-            Computer Science student at NC State with a passion for learning, ownership, and innovation in tech. Experienced in mobile development, fullstack, distributed systems, and machine learning.
+            Computer Science student at NC State University with a passion for learning, ownership, and innovation in tech. Experienced in mobile development, fullstack, distributed systems, and machine learning.
           </p>
 
           <div className="mb-8 inline-flex items-center gap-2 px-4 py-2 bg-white rounded-full shadow-md border border-gray-200">
