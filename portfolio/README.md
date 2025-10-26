@@ -63,14 +63,14 @@ npm run deploy
 
 This will:
 1. Build your project
-2. Create a `gh-pages` branch
+2. Create a `main` branch
 3. Deploy the built files to GitHub Pages
 
 ### Step 4: Enable GitHub Pages
 
 1. Go to your repository on GitHub
 2. Click **Settings** → **Pages**
-3. Under "Source", select the `gh-pages` branch
+3. Under "Source", select the `main` branch
 4. Click **Save**
 5. Your site will be live at: `https://YOUR_USERNAME.github.io/personal-website/`
 
