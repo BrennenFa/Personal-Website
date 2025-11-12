@@ -7,8 +7,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#3b82f6',
-        secondary: '#8b5cf6',
+        primary: '#CC0000',
+        secondary: '#CE1126',
+        'ncstate-red': '#CC0000',
       },
     },
   },

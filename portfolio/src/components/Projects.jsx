@@ -38,14 +38,14 @@ const Projects = () => {
       <div className="max-w-6xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 relative">
           Featured Projects
-          <span className="block w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mt-4 rounded-full"></span>
+          <span className="block w-20 h-1 bg-gradient-to-r from-red-600 to-red-800 mx-auto mt-4 rounded-full"></span>
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-xl p-8 hover:-translate-y-3 hover:shadow-2xl hover:border-blue-500 transition-all duration-300 flex flex-col h-full"
+              className="bg-white border border-gray-200 rounded-xl p-8 hover:-translate-y-3 hover:shadow-2xl hover:border-red-600 transition-all duration-300 flex flex-col h-full"
             >
               <div className="flex justify-between items-start mb-4">
                 <h3 className="text-xl font-semibold text-gray-800 flex-1">{project.title}</h3>
@@ -55,7 +55,7 @@ const Projects = () => {
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-500 text-lg hover:scale-125 hover:text-purple-600 transition-all duration-300"
+                      className="text-red-600 text-lg hover:scale-125 hover:text-red-800 transition-all duration-300"
                       title="IEEE Publication"
                     >
                       <i className="fas fa-file-alt"></i>
@@ -66,7 +66,7 @@ const Projects = () => {
                       href={project.spieLink}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-blue-500 text-lg hover:scale-125 hover:text-purple-600 transition-all duration-300"
+                      className="text-red-600 text-lg hover:scale-125 hover:text-red-800 transition-all duration-300"
                       title="SPIE Publication"
                     >
                       <i className="fas fa-book"></i>
@@ -80,7 +80,7 @@ const Projects = () => {
               <ul className="space-y-3 mb-6 flex-1">
                 {project.highlights.map((highlight, idx) => (
                   <li key={idx} className="text-gray-600 pl-6 relative text-sm leading-relaxed">
-                    <span className="absolute left-0 text-blue-500 font-bold">✓</span>
+                    <span className="absolute left-0 text-red-600 font-bold">✓</span>
                     {highlight}
                   </li>
                 ))}
@@ -90,7 +90,7 @@ const Projects = () => {
                 {project.tech.map((tech, idx) => (
                   <span
                     key={idx}
-                    className="px-3 py-1.5 bg-gradient-to-br from-blue-500/10 to-purple-600/10 border border-blue-500/20 rounded-2xl text-xs text-blue-600 font-semibold"
+                    className="px-3 py-1.5 bg-gradient-to-br from-red-600/10 to-red-800/10 border border-red-600/20 rounded-2xl text-xs text-red-600 font-semibold"
                   >
                     {tech}
                   </span>

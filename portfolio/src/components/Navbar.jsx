@@ -28,7 +28,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-8 py-4 flex justify-between items-center">
         <a
           href="#home"
-          className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent hover:scale-110 transition-transform duration-300"
+          className="text-2xl font-bold bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent hover:scale-110 transition-transform duration-300"
           onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}
         >
           BF
@@ -40,7 +40,7 @@ const Navbar = () => {
               <a
                 href={`#${item}`}
                 onClick={(e) => { e.preventDefault(); scrollToSection(item); }}
-                className="text-gray-700 hover:text-blue-500 font-medium relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-blue-500 after:to-purple-600 hover:after:w-full after:transition-all after:duration-300 capitalize"
+                className="text-gray-700 hover:text-red-600 font-medium relative after:content-[''] after:absolute after:bottom-[-5px] after:left-0 after:w-0 after:h-0.5 after:bg-gradient-to-r after:from-red-600 after:to-red-800 hover:after:w-full after:transition-all after:duration-300 capitalize"
               >
                 {item}
               </a>

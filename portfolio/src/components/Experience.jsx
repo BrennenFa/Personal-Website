@@ -52,22 +52,22 @@ const Experience = () => {
       <div className="max-w-6xl mx-auto px-8">
         <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 relative">
           Work Experience
-          <span className="block w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-600 mx-auto mt-4 rounded-full"></span>
+          <span className="block w-20 h-1 bg-gradient-to-r from-red-600 to-red-800 mx-auto mt-4 rounded-full"></span>
         </h2>
 
         <div className="relative max-w-4xl mx-auto">
           {/* Timeline line */}
-          <div className="absolute left-5 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 to-purple-600 hidden md:block"></div>
+          <div className="absolute left-5 top-0 bottom-0 w-0.5 bg-gradient-to-b from-red-600 to-red-800 hidden md:block"></div>
 
           {experiences.map((exp, index) => (
             <div key={index} className="relative pl-0 md:pl-16 mb-12">
               {/* Timeline dot */}
-              <div className="absolute left-3 top-0 w-5 h-5 rounded-full bg-white border-4 border-blue-500 z-10 hidden md:block"></div>
+              <div className="absolute left-3 top-0 w-5 h-5 rounded-full bg-white border-4 border-red-600 z-10 hidden md:block"></div>
 
               <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-2xl hover:-translate-y-2 transition-all duration-300">
                 <div className="mb-4">
                   <h3 className="text-2xl font-semibold text-gray-800 mb-2">{exp.title}</h3>
-                  <span className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent font-semibold text-lg mr-4">
+                  <span className="inline-block bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent font-semibold text-lg mr-4">
                     {exp.company}
                   </span>
                   <span className="text-gray-500 text-sm">{exp.date}</span>
@@ -76,7 +76,7 @@ const Experience = () => {
                 <ul className="space-y-3 mb-6">
                   {exp.description.map((desc, idx) => (
                     <li key={idx} className="text-gray-600 pl-6 relative leading-relaxed">
-                      <span className="absolute left-0 text-blue-500 font-bold">▹</span>
+                      <span className="absolute left-0 text-red-600 font-bold">▹</span>
                       {desc}
                     </li>
                   ))}
